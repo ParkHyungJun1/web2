@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+	
+	<title> ul lli</title>
+
+<style type="text/css">
+
+body{
+	background:url('benis.jpg') no-repeat;
+	background-size:cover; 
+	font-family:'Kavivanar', cursive;
+	color:white;
+}
+
+.fly-in-text{
+
+list-style:none;
+position:absolute;
+left:24%; 
+top:40%;
+transform: translateX(-50%)  translateY(-50);
+}
+.fly-in-text li{
+      float:left;
+	display:inline-block;
+	margin-right:50px;
+	font-weight: 300;
+font-size:5em;
+color:#6482FF;
+opacity: 1;
+transition: all 3.5s ease;
+cursor: pointer;
+}
+
+.fly-in-text li : last-child{
+margin-right:;
+
+}
+.fly-in-text.hidden li{
+/*	opacity: 0;*/
+}
+
+.fly-in-text.hidden li:nth-child(1){transform: translateX(-200px) translateY(-200px); }    
+.fly-in-text.hidden li:nth-child(2){transform: translateX(-120px) translateY(-70px); }
+.fly-in-text.hidden li:nth-child(3){transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(4){transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5){transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(6){transform: translateX(20px) translateY(-20px); }
+.fly-in-text.hidden li:nth-child(7){transform: translateX(30px) translateY(200px); }
+
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+<script type="text/javascript"></script>
+	<ul class= "fly-in-text hidden"><a href="main.html">
+
+		<li>  w</li>
+		<li>  e</li>
+		<li>  l</li>
+		<li>  c</li>
+		<li>  o</li>
+		<li>  m</li>
+		<li>  e</li>
+</a>			
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script>
+$(function(){
+	setTimeout(function(){
+$('.fly-in-text').removeClass('hidden');
+},000);
+
+})();
+
+</script>
+
+</body>
+
+
+
+
+
+
+
+</html>

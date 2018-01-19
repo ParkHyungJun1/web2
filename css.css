@@ -1,0 +1,197 @@
+body{
+	background:url('benis.jpg') no-repeat;
+	background-size:cover;
+	font-family:'Kavivanar', cursive;
+	color:white;
+}
+body, ul{
+margin:0;
+padding: 0;
+
+
+}
+
+li{
+
+list-style-type: none;
+
+}
+
+a{
+text-decoration:none;
+color:inherit;
+
+}
+
+
+.main-bar{
+   margin-left:50px;
+   margin-top:20px;
+
+  padding:10px 0px 0px ;
+  list-style:none;
+
+}
+
+.main-bar .sub-menu :hover{
+background-color:#C35F5F;
+cursor: pointer;
+}
+
+.main-bar .sub-menu{
+     float:left;
+	width:230px;
+	
+	height:25px;
+	background-color:gray;
+	opacity:.9;
+	line-height: 40px
+	font-size:20px;
+	text-align:center;
+      margin:0px 15px 0px 75px;
+    
+}
+
+
+.main-bar .sub-menu a {
+	text-decoration:none;
+	display:block;
+	color:white;
+
+}
+
+
+
+
+
+
+
+
+.homesub{
+ margin:0;
+ padding:9% 0.5% 0% 55%;
+ color:yellow;
+ font-size:18px;
+}
+
+
+.homesub-animation{
+	position:relative;
+           animation-name:homesubanimation;
+           animation-duration:3s;
+
+}
+
+@keyframes homesubanimation{
+
+	0%{left:-700px; top:0px;
+
+	}
+     
+
+     
+	
+
+	
+	100%{ left:0px; top:0px;
+
+
+	}
+}
+
+
+.homedes{
+
+ margin:0% 0.5% 0% 50%;
+
+font-size:75px;
+color:white;
+background-color: rgba(0,0,0,0.4);
+display: inline-block;
+}
+
+
+.homedes-animation{
+	position:relat;
+           animation-name:homedesanimation;
+           animation-duration:3s;
+
+}
+
+@keyframes homedesanimation{
+
+	0%{left:-700px; top:0px;
+
+	}
+     
+
+     
+	
+
+	
+	100%{ left:0px; top:0px;
+
+
+	}
+}
+
+
+.homepho{
+margin:0% 0.0% 0% 50%;
+font-size:64px;
+color:black;
+display:inline-block;
+}
+
+.buttonhome{
+margin:0% 0.0% 0% 50%;
+display:inline-block;
+background:yellow;
+color:black;
+height:50px;
+font-size:1.4em;
+padding:0.1em;
+cursor: pointer;
+font-weight:900;  
+text-transform: uppercase;
+border-radius:80px
+background:transparent ;
+transition: .3s;
+overflow:hidden;
+position: relative;
+
+}
+
+
+.buttenhome:before{
+width: 30%
+content: '';
+	z-index: -1;
+	transition: 4s;
+	position: absolute;
+	color:red;
+}
+
+.buttenhome:after{
+
+content: '';
+	z-index: -1;
+	transition: 3s;
+transition-delay:.2s;
+position: absolute;
+}
+
+
+span{
+	font-size: 30px;
+
+}
+
+.buttonhome:hover{
+color:#FF98A3;
+}
+.buttonhome:hover:before{
+top:0;
+}
+
+
